@@ -9,8 +9,8 @@ Compared to SQLite, DuckDB is much faster. E.g. I imported 16M rows from a CSV f
 
 DuckDB can import CSV files with automatic format detection and automatic table creation using:
 
-CREATE TABLE test1 AS SELECT * FROM read_csv_auto('test1.csv');
-CREATE TABLE test2 AS SELECT * FROM read_csv_auto('test2.csv.gz');
+    CREATE TABLE test1 AS SELECT * FROM read_csv_auto('test1.csv');
+    CREATE TABLE test2 AS SELECT * FROM read_csv_auto('test2.csv.gz');
 
 Usage:
 
