@@ -14,6 +14,10 @@ DuckDB can import CSV files with automatic format detection and automatic table 
 
 Usage:
 
+    php -dffi.enable=1 test.php
+
+    or:
+
     docker build -t php-ffi .
     docker run -it --rm -v $(pwd):/code php-ffi php /code/test.php
 
@@ -25,4 +29,5 @@ References:
 
 - https://duckdb.org
 - https://github.com/cwida/duckdb
+- https://github.com/cwida/duckdb/releases/latest/download/libduckdb-linux-amd64.zip
 - https://www.php.net/manual/en/book.ffi.php
