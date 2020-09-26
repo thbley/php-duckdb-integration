@@ -28,6 +28,8 @@ class DuckDB
     {
         $this->ffi->duckdb_disconnect(FFI::addr($this->conn));
         $this->ffi->duckdb_close(FFI::addr($this->db));
+        FFI::free($this->conn);
+        FFI::free($this->db);
         unset($this->ffi);
     }
 
