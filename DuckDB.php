@@ -6,7 +6,7 @@ class DuckDB
     private FFI\CData $db;
     private FFI\CData $conn;
 
-    public function __construct(?string $databasePath, string $libraryPath, string $headersPath)
+    public function __construct(string $databasePath, string $libraryPath, string $headersPath)
     {
         $this->ffi = FFI::cdef(file_get_contents($headersPath), $libraryPath);
 

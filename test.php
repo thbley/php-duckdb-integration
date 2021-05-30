@@ -1,5 +1,7 @@
 <?php
 
+// php -dffi.enable=1 test.php
+
 error_reporting(E_ALL);
 
 require 'DuckDB.php';
