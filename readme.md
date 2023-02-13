@@ -27,6 +27,7 @@ Requirements:
 
 References:
 
+- Slides: https://github.com/thbley/php-duckdb-integration/blob/master/Getting_started_with_phpffi_ipc_2021_ThomasBley.pdf
 - https://duckdb.org
 - https://github.com/cwida/duckdb
 - https://github.com/cwida/duckdb/releases/latest/download/libduckdb-linux-amd64.zip
